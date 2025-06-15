@@ -16,6 +16,9 @@ app.get('/login',(req,res)=>{
 app.get('/chai',(req,res)=>{
     res.send("<h2>mast CHAI</h2>")
 })
+app.get(('/new',(req,res)=>{
+  res.send("it was a new comment")
+}))
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
