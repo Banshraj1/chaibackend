@@ -17,7 +17,7 @@ app.get('/chai',(req,res)=>{
     res.send("<h2>mast CHAI</h2>")
 })
 app.get(('/new',(req,res)=>{
-  res.send("it was a new comment")
+  res.send("it was a new comment in main")
 }))
 
 app.listen(process.env.PORT, () => {
